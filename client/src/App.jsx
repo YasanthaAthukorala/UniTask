@@ -144,8 +144,11 @@ export default function App() {
         )}
 
         <section className="hero">
-          <h2>Campus gigs</h2>
-          <p>Post gigs with contact info, explore listings, and hire — owners get notified instantly.</p>
+          <div className="hero-content">
+            <div className="hero-badge">Welcome to UniTask</div>
+            <h2>Elevate your <span className="highlight">Campus Gigs</span></h2>
+            <p>Post gigs with contact info, explore curated listings, and hire top talent instantly. Owners get notified in real-time.</p>
+          </div>
         </section>
 
         <TabBar
